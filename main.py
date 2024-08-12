@@ -25,8 +25,25 @@ def preprocess_text(text):
     padded_review = sequence.pad_sequences([encoded_review], maxlen=500)
     return padded_review
 
+<<<<<<< HEAD
 
 ## streamlit app
+=======
+# Step-3: Prediction fuction
+def predict_sentiment(review):
+    preprocessed_input=preprocess_text(review)
+
+    prediction=model.predict(preprocessed_input)
+
+    sentiment = 'Positive' if prediction[0][0] > 0.5 else 'Negative'
+    
+    return sentiment, prediction[0][0]
+
+
+
+## streamlit app
+
+>>>>>>> 85633e6fcf0ed4efacbeeb98adc0fc3a48d1df11
 st.title('IMDB Movie Review Sentiment Analysis')
 st.write('Enter a movie review to classify it as positive or negative.')
 
