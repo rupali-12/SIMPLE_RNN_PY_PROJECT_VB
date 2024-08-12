@@ -25,10 +25,7 @@ def preprocess_text(text):
     padded_review = sequence.pad_sequences([encoded_review], maxlen=500)
     return padded_review
 
-<<<<<<< HEAD
 
-## streamlit app
-=======
 # Step-3: Prediction fuction
 def predict_sentiment(review):
     preprocessed_input=preprocess_text(review)
