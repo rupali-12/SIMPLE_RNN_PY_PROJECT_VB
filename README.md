@@ -6,7 +6,7 @@ This project implements a simple Recurrent Neural Network (RNN) using TensorFlow
 
 You can access the deployed version of the application using the following link:
 
-[Simple RNN IMDB Sentiment Analysis](https://simplernnpyprojectvb-unfszcaeksq2otewfzeulo.streamlit.app/)
+[Simple RNN IMDB Sentiment Analysis](https://simplernnpyprojectvb-jkesdvkvj8ejyuz2hperm3.streamlit.app/)
 
 ## Getting Started
 
