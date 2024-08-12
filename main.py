@@ -61,5 +61,3 @@ else:
 
 
 # Command to run : streamlit run main.py
-# Network link: http://192.168.0.199:8501/
-# LocalHost: http://localhost:8501/
